@@ -1,12 +1,6 @@
 //your JS code here. If required.
 let element=document.getElementById("button");
-element.addEventListener("click",removing);
-let color=document.getElementById("colorSelect");
-let onee=document.getElementById("one");
-let twoo=document.getElementById("two");
-let three=document.getElementById("three");
-let fourr=document.getElementById("four");
-function removing(){
+element.addEventListener("click",function(){
 color.remove(color.selectedIndex);
-	
 }
+let color=document.getElementById("colorSelect");
